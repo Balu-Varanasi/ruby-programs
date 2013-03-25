@@ -15,3 +15,9 @@ puts "The numbers: "
 for num in numbers
   puts num
 end
+
+puts "this is using a block"
+
+numbers.each do |n|
+  puts n
+end
