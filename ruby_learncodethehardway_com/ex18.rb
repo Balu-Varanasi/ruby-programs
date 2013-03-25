@@ -23,3 +23,13 @@ puts_two("Zed","Shaw")
 puts_two_again("Zed","Shaw")
 puts_one("First!")
 puts_none()
+
+def _(*args)
+  puts "This is '_' function"
+end
+
+_()
+
+# We can call functions without parenthesis too... ! :O
+puts puts_none
+puts _
