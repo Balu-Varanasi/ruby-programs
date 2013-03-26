@@ -63,3 +63,5 @@ end
 # get a city with a default value
 city = cities['TX'] || 'Does Not Exist'
 puts "The city for the state 'TX' is: %s" % city
+
+puts "This is to test string interpolation over dictionary #{cities}"
